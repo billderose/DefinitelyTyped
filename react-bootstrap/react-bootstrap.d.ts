@@ -63,6 +63,8 @@ declare module "react-bootstrap" {
         navItem?: boolean;
         noCaret?: boolean;
         pullRight?: boolean;
+        title?: string | JSX.Element;
+        onSelect?: (eventKey: any, event: any) => any;
     }
     class DropdownButton extends React.Component<DropdownButtonProps, {}> {
     }
